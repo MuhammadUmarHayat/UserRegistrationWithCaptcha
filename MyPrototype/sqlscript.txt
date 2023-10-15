@@ -1,0 +1,13 @@
+﻿
+
+CREATE TABLE [dbo].users
+(
+	[name] NVARCHAR(50) NOT NULL , 
+    [sirname] NVARCHAR(50) NULL, 
+    [username] NVARCHAR(50) NOT NULL, 
+    [password] NVARCHAR(50) NULL, 
+    [email] NVARCHAR(50) NULL, 
+    [language] NVARCHAR(50) NULL, 
+    CONSTRAINT [PK_Table] PRIMARY KEY ([username])
+)
+//https://www.youtube.com/watch?v=3la5ZZxfoFU
